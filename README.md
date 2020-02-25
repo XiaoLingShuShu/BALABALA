@@ -4,8 +4,7 @@
       后端:Eureka、SpringCloud、SpringBoot、Mybaits、Maven、分布式缓存Redis、JWT
       前端:JavaScript、jQuery
       数据库：Mysql、Redis
-做的东西不door，我还会一直维护开发新的功能，各位如果觉得做得还行的请到B站给我做的视频点个赞嗷
-https://space.bilibili.com/15404186
+做的东西不door，我还会一直维护开发新的功能，各位如果觉得做得还行的还麻烦到B站给我做的视频点个赞嗷https://space.bilibili.com/15404186
 下期更新技术：
   Rabbitmq、订单系统、支付系统（微信支付），异步通信，Elasticsearch
 ![image](https://github.com/XiaoLingShuShu/BALABALA/blob/master/Source/QQ截图20200225184106.png)
