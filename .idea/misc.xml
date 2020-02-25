@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/b-auth" />
+    <file type="web" url="file://$PROJECT_DIR$/b-common" />
+    <file type="web" url="file://$PROJECT_DIR$/b-gatway" />
+    <file type="web" url="file://$PROJECT_DIR$/b-homepage/b-homepage-pojo" />
+    <file type="web" url="file://$PROJECT_DIR$/b-homepage/b-homepage-service" />
+    <file type="web" url="file://$PROJECT_DIR$/b-item/b-item-pojo" />
+    <file type="web" url="file://$PROJECT_DIR$/b-item/b-item-service" />
+    <file type="web" url="file://$PROJECT_DIR$/b-registry" />
+    <file type="web" url="file://$PROJECT_DIR$/b-user/b-user-interface" />
+    <file type="web" url="file://$PROJECT_DIR$/b-user/b-user-pojo" />
+    <file type="web" url="file://$PROJECT_DIR$/b-user/b-user-service" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

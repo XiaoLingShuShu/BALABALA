@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="b-gatway" />
+        <module name="b-user-interface" />
+        <module name="b-homepage-pojo" />
+        <module name="b-user-pojo" />
+        <module name="b-registry" />
+        <module name="b-auth" />
+        <module name="b-common" />
+        <module name="b-item-service" />
+        <module name="b-user-service" />
+        <module name="b-homepage-service" />
+        <module name="b-item-pojo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="b-auth" options="-parameters" />
+      <module name="b-common" options="-parameters" />
+      <module name="b-gatway" options="-parameters" />
+      <module name="b-homepage-pojo" options="-parameters" />
+      <module name="b-homepage-service" options="-parameters" />
+      <module name="b-item-pojo" options="-parameters" />
+      <module name="b-item-service" options="-parameters" />
+      <module name="b-registry" options="-parameters" />
+      <module name="b-user-interface" options="-parameters" />
+      <module name="b-user-pojo" options="-parameters" />
+      <module name="b-user-service" options="-parameters" />
+      <module name="bilibili" options="" />
+    </option>
+  </component>
+</project>

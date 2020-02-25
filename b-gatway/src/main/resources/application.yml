@@ -1,0 +1,67 @@
+server:
+  port: 10087
+spring:
+  application:
+    name: b-gatway
+  redis:
+    host: 127.0.0.1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 # 熔断超时时长：6000ms
+ribbon:
+  ConnectTimeout: 300 # ribbon链接超时时长
+  ReadTimeout: 3000 # ribbon读取超时时长
+  MaxAutoRetries: 0  # 当前服务重试次数
+  MaxAutoRetriesNextServer: 1 # 切换服务重试次数
+  OkToRetryOnAllOperations: false # 是否对所有的请求方式都重试，只对get请求重试
+zuul:
+  host:
+    connect-timeout-millis: 10000 #HTTP连接超时大于Hystrix的超时时间
+    socket-timeout-millis: 10000   #socket超时
+    max-total-connections: 10000
+    max-per-route-connections: 10000
+  semaphore:
+    max-semaphores: 200
+  prefix: /
+  routes:
+    b-homepage-service: /homepage/**
+    b-user-service: /user/**
+    b-item-service: /item/**
+    b-auth-service: /auth/**
+  sensitive-headers:  #覆盖敏感头信息
+bala:
+  jwt:
+    pubKeyPath: D:\id_rsa.pub # 公钥地址
+    user:
+      cookieName: BALA_TOKEN #cookie名称
+  cors:
+    allowedOrigins:
+    - http://www.balabala.com
+    allowedCredentials: true
+    allowedHeaders:
+    - "*"
+    allowedMethods:
+    - GET
+    - POST
+    - DELETE
+    - PUT
+    - OPTIONS
+    - HEAD
+    maxAge: 360000
+    filterPath: "/**"
+  filter:
+    allowPaths:
+    - /user/Register
+    - /user/Reset
+    - /item
+    - /auth/login
+    - /homepage

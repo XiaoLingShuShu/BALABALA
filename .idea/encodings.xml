@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-gatway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-homepage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-homepage/b-homepage-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-homepage/b-homepage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-item/b-item-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-item/b-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-user/b-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-user/b-user-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-user/b-user-service" charset="UTF-8" />
+  </component>
+</project>
