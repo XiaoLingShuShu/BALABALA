@@ -1,6 +1,6 @@
 # BALABALA
 极度真实的BiLiBiLi前后端项目(SpringCloud_SpringBoot_Mybatis_Maven_Redis_单点登录_权限控制)  
-  技术栈：  
+    技术栈：  
       后端:Eureka、SpringCloud、SpringBoot、Mybaits、Maven、分布式缓存Redis、JWT
       前端:JavaScript、jQuery
       数据库：Mysql、Redis
