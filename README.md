@@ -1,3 +1,4 @@
+# 项目已经迁移至Gitee:https://gitee.com/MoonKife/BALABALA_WEB
 趁着618腾讯云搞活动，弄了一个服务器，网速慢，李姐一下嗷：http://www.balabala.xyz
 # BALABALA
 极度真实的BiLiBiLi前后端项目(SpringCloud_SpringBoot_Mybatis_Maven_Redis_单点登录_权限控制)  
